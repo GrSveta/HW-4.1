@@ -2,3 +2,6 @@
                     height: auto;}
 .header__logo_brdr {border: 3px solid black;}
 .header__mlink_color {color: violet;}
+.header__menu_pozition {display: flex;
+    flex-direction: row;
+    justify-content: flex-end;}
