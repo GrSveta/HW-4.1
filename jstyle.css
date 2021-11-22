@@ -1,11 +1,17 @@
+*, *:before, *:after { 
+    box-sizing: border-box; 
+  }
+  html, body{ height: 100%; display: flex; flex-direction: column;}
+
 .logo img {width: 50px
 }
 html {background-size:cover;
-     font-size: 14pt;}
+     font-size: 10pt;}
 body {max-width: 100%;
       background-attachment: fixed;
       background: linear-gradient(45deg, #EECFBA, #C5DDE8);
-      }
+      margin:0; 
+    }
 .main {
     display: flex;
     flex-direction: column;
@@ -17,23 +23,10 @@ body {max-width: 100%;
     top: 0;
     border-radius: 13px;
     }
-.header {display:flex;
-         justify-content: space-between;
-         width: 98%;
-         }
+
 .footer p{text-align: center;}
-.menu {display: flex;
-      flex-direction: row;
-      justify-content: flex-end;
-    }
-.menu ul{list-style: none;
-         display:flex;
-         justify-content: space-between;
-        }
-.mlink {color: black;
-  text-decoration: none;
-  margin-right: 10px;
-}
+
+
 .cont {display: flex;
      flex-direction: row;
 	 justify-content: flex-start;
@@ -57,19 +50,25 @@ img{max-width: 90%;
 h3 {text-align: center;}
 main p {text-indent: 1.5em;
         text-align: justify;}
-.foot2 {display: table-row;
-    flex-direction: row;
+  body > footer {
+    position: sticky;
+    top: 100vh;
+  }
+  footer {
+    padding: 20px;
+    background-color: #eee;
+  }
+
+main { padding: 0 20px;}
+  
+ .foot2 {
+     display: flex;
+     flex-direction: row;
     justify-content: space-between;
-	padding: 10px; 
-    width: 100%;
     }
 .f22 {display:flex;
-    justify-content: space-between;
-    width: 40vw;}
-.lastimg {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-}
+    justify-content: flex-start;
+    margin-left: 20px;}
+.lastimg {display: flex; justify-content: flex-end;}
 .end img{width: 50px;}
 .spisok1 ul{list-style: none;}
