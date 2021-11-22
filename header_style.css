@@ -8,3 +8,7 @@
   }
 .header__ul_flex {display:flex;
     justify-content: space-between;}
+.header_flex {display:flex;
+    justify-content: space-between;
+    width: 98%;
+    }
