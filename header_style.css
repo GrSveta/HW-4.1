@@ -2,3 +2,9 @@
                     height: auto;}
 .header__logo_brdr {border: 3px solid black;}
 .header__mlink_color {color: violet;}
+.header__menu_flex {display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+.header__ul_flex {display:flex;
+    justify-content: space-between;}
